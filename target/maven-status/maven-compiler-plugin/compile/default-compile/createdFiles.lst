@@ -1,0 +1,6 @@
+com/pwc/datacenter/repository/PersonalDetailRepository.class
+com/pwc/datacenter/stores/PersonalInformation.class
+com/pwc/datacenter/bin/ApplicationConfig.class
+com/pwc/datacenter/bin/DatabaseService.class
+com/pwc/datacenter/Starter.class
+com/pwc/datacenter/bin/MongoConfig.class
