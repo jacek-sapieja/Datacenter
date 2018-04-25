@@ -1,10 +1,9 @@
 package com.pwc.datacenter.stores;
 
-
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "Datacenter")
+@Document(collection = "datacenter")
 public class PersonalInformation {
 
     @Id

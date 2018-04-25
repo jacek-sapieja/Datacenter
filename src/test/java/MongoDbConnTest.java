@@ -12,14 +12,14 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class MongoDbConnTest {
 
      @Autowired
-     DatabaseService service;
+     DatabaseService dbService;
 
      @Test
      public void TestDB(){
          PersonalInformation info = new PersonalInformation();
          info.setId("1");
          info.setSfEntityId("2");
-         service.savePersonalInformation(info);
+        // service.savePersonalInformation(info);
      }
 
 
